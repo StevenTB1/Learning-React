@@ -1,0 +1,19 @@
+.welcome-message{
+  font-size: 2.5em;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(75, 75, 75);
+  color: rgb(214, 214, 214);
+  margin: 0;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.login-prompt{
+  font-size: 2.5em;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(109, 0, 0);
+  color: rgb(214, 214, 214);
+  margin: 0;
+  padding: 10px;
+  border-radius: 10px;
+}
