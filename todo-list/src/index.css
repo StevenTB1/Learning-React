@@ -1,0 +1,82 @@
+body{
+  background-color: bisque;
+}
+
+.to-do-list{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.add-button{
+  background-color: hsl(271, 76%, 53%);
+}
+
+.add-button:hover{
+  background-color: hsl(271, 76%, 43%);
+}
+
+.delete-button{
+  background-color: hsl(0, 59%, 41%);
+}
+
+.delete-button:hover{
+  background-color: hsl(0, 59%, 31%);
+}
+
+.move-button{
+  background-color: hsl(240, 100%, 59%);
+}
+
+.move-button:hover{
+  background-color: hsl(240, 100%, 49%);
+}
+
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid blanchedalmond;
+  border-radius: 5px;
+  color: hsla(0, 0%, 0%, 0.5);
+}
+
+ol{
+  padding: 0;
+}
+
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color:rgb(from red 100 200 255);
+  margin-bottom: 10px;
+  border: 3px solid black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.text{
+  flex: 1;
+}
+
+.delete-button, .move-button{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
